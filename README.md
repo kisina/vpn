@@ -21,6 +21,8 @@ This depends on the OS, but for linux you could use an instruction like
 sudo apt install openvpn
 ```
 
+# Launch the client
+
 Next, copy desktop.ovpn as follows:
 ```bash
 sudo cp linuxdesktop.ovpn /etc/openvpn/client.conf
@@ -36,4 +38,7 @@ Your Linux system will automatically connect when computer restart using openvpn
 sudo systemctl start openvpn@client # <--- start client service
 ```
 
-# Launch the client
+# Test your connection and your new IP
+
+https://whatismyipaddress.com/
+
