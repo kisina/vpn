@@ -7,6 +7,7 @@ The original repo can be [found here](https://github.com/Nyr/openvpn-install).
 # How to get a server for free?
 
 You can get server for free at [Oracle Cloud](https://cloud.oracle.com) using the "Always free" dedicated to testing the services. It gives access to small machine that are enough for setting up a server.
+More information on this video (in french): https://www.youtube.com/watch?v=23NboTdWMXs
 
 # Install the VPN server
 
