@@ -67,3 +67,9 @@ Just execute
 ```bash
 sudo openvpn --client --config /etc/openvpn/client.conf
 ```
+
+# More information
+
+Check the documentation of openVPN : https://openvpn.net/community-resources/reference-manual-for-openvpn-2-4/
+
+
