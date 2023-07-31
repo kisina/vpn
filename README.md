@@ -61,3 +61,9 @@ sudo systemctl start openvpn@client # <--- start client service
 
 https://whatismyipaddress.com/
 
+# How relaunch the client?
+
+Just execute
+```bash
+sudo openvpn --client --config /etc/openvpn/client.conf
+```
