@@ -68,6 +68,28 @@ Just execute
 sudo openvpn --client --config /etc/openvpn/client.conf
 ```
 
+# How to manage the client?
+
+To stop the client:
+```bash
+sudo systemctl stop openvpn
+```
+
+To start the client:
+```bash
+sudo systemctl start openvpn
+```
+
+To automatically start the client when the computer boots:
+```bash
+sudo systemctl enable openvpn
+```
+
+To disable automatic start of the client:
+```bash
+sudo systemctl disable openvpn
+```
+
 # More information
 
 Check the documentation of openVPN : https://openvpn.net/community-resources/reference-manual-for-openvpn-2-4/
